@@ -1,0 +1,76 @@
+Running Analysis: [Size Sensitivity]
+
+Benchmark Dimensions:
+0) medium-[1024, 4096]: 19645
+1) large-[4096, 9216]: 10245
+2) xlarge-[9216, 16384]: 6685
+3) xxlarge-[16384, 10000000000.0]: 16097
+
+Performance Breakdown over Area for [miss]:
+medium: ap[0.807], max_rec[0.838]
+large: ap[0.881], max_rec[0.916]
+xlarge: ap[0.930], max_rec[0.959]
+xxlarge: ap[0.922], max_rec[0.946]
+all: ap[0.868], max_rec[0.899]
+
+Performance Breakdown over Area for [swap]:
+medium: ap[0.683], max_rec[0.701]
+large: ap[0.777], max_rec[0.804]
+xlarge: ap[0.856], max_rec[0.882]
+xxlarge: ap[0.868], max_rec[0.898]
+all: ap[0.769], max_rec[0.793]
+
+Performance Breakdown over Area for [inversion]:
+medium: ap[0.686], max_rec[0.710]
+large: ap[0.779], max_rec[0.808]
+xlarge: ap[0.871], max_rec[0.894]
+xxlarge: ap[0.873], max_rec[0.898]
+all: ap[0.782], max_rec[0.806]
+
+Performance Breakdown over Area for [jitter]:
+medium: ap[0.720], max_rec[0.741]
+large: ap[0.785], max_rec[0.815]
+xlarge: ap[0.880], max_rec[0.900]
+xxlarge: ap[0.890], max_rec[0.912]
+all: ap[0.799], max_rec[0.824]
+
+Performance Breakdown over Area for [score]:
+medium: ap[0.673], max_rec[0.678]
+large: ap[0.782], max_rec[0.787]
+xlarge: ap[0.881], max_rec[0.882]
+xxlarge: ap[0.890], max_rec[0.891]
+all: ap[0.782], max_rec[0.784]
+
+Performance Breakdown over Area for [bckgd_false_pos]:
+medium: ap[0.673], max_rec[0.678]
+large: ap[0.782], max_rec[0.787]
+xlarge: ap[0.881], max_rec[0.882]
+xxlarge: ap[0.891], max_rec[0.891]
+all: ap[0.782], max_rec[0.784]
+
+Performance Breakdown over Area for [Original Dts]:
+medium: ap[0.655], max_rec[0.678]
+large: ap[0.751], max_rec[0.787]
+xlarge: ap[0.860], max_rec[0.882]
+xxlarge: ap[0.867], max_rec[0.891]
+all: ap[0.758], max_rec[0.784]
+
+AP Improvement over Baseline at all area ranges: ['medium', 'large', 'xlarge', 'xxlarge', 'all']
+inversion: [0.031064442049247742, 0.028026897656712624, 0.011246948078470265, 0.0058218853873058807, 0.023698416616981244]
+jitter: [0.065306040123051967, 0.034684387019031315, 0.020381187983577687, 0.022379432282832123, 0.041197316510761084]
+bckgd_false_pos: [0.018514022391080798, 0.031531131152421454, 0.021237717082463581, 0.023635394161498402, 0.024229533165606054]
+false_neg: [0.32673267326732669, 0.21782178217821779, 0.11881188118811881, 0.1089108910891089, 0.21782178217821779]
+score: [0.018514022391080798, 0.031531131152421454, 0.021237717082463581, 0.022566636853946442, 0.023709480019664331]
+swap: [0.027810030882345127, 0.02615347562387671, -0.0042625176186927849, 0.00088678885395421236, 0.011547262331145558]
+miss: [0.15249578544179376, 0.13064786824832375, 0.069584412073359969, 0.054480736475165381, 0.1098805572327195]
+
+OKS 0.75:  Sensitivity[0.213], Impact[0.110]
+Jitter:    Sensitivity[0.045], Impact[0.024]
+Inversion: Sensitivity[0.025], Impact[0.007]
+Swap:      Sensitivity[0.032], Impact[0.016]
+Miss:      Sensitivity[0.098], Impact[0.043]
+Score:     Sensitivity[0.013], Impact[0.008]
+Bkgd FP:   Sensitivity[0.013], Impact[0.007]
+FN:        Sensitivity[0.218], Impact[0.109]
+
+Done, (t=101.87s).

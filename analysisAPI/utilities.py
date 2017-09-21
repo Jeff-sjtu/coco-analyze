@@ -27,7 +27,7 @@ colors    = {(0,1): '#cd87ff', (0,2): '#cd87ff', (1,2): '#cd87ff', (1,3): '#cd87
 def show_dets(coco_dts, coco_gts, img_info, save_path=None):
     if len(coco_dts) == 0 and len(coco_gts)==0:
         return 0
-
+    print img_info['coco_url']
     I = io.imread(img_info['coco_url'])
     plt.figure(figsize=(10,10)); plt.axis('off')
     plt.imshow(I)

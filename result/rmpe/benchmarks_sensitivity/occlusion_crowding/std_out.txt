@@ -1,0 +1,149 @@
+Running Analysis: [Occlusion and Crowding Sensitivity]
+
+Benchmark Dimensions:
+Overlap @ IoU > .1:
+0) [0]: 60424
+1) [1, 2]: 26456
+2) [3, 4, 5, 6, 7, 8]: 1273
+
+Visible Keypoints:
+0) [1, 2, 3, 4, 5]: 6756
+1) [6, 7, 8, 9, 10]: 13554
+2) [11, 12, 13, 14, 15]: 21929
+3) [16, 17]: 7958
+
+Joint:
+0-0: 4366
+0-1: 7550
+0-2: 13677
+0-3: 5586
+1-0: 2299
+1-1: 5678
+1-2: 7815
+1-3: 2268
+2-0: 91
+2-1: 326
+2-2: 437
+2-3: 104
+
+Benchmark Index [0,0]:
+baseline: ap[0.035], max_rec[0.344]
+miss: ap[0.122], max_rec[0.640]
+swap: ap[0.143], max_rec[0.664]
+inversion: ap[0.173], max_rec[0.712]
+jitter: ap[0.202], max_rec[0.784]
+score: ap[0.778], max_rec[0.784]
+bckgd_false_pos: ap[0.782], max_rec[0.784]
+false_neg: ap[1.000], max_rec[1.000]
+
+Benchmark Index [0,1]:
+baseline: ap[0.452], max_rec[0.751]
+miss: ap[0.667], max_rec[0.902]
+swap: ap[0.702], max_rec[0.917]
+inversion: ap[0.783], max_rec[0.980]
+jitter: ap[0.785], max_rec[0.980]
+score: ap[0.980], max_rec[0.980]
+bckgd_false_pos: ap[0.980], max_rec[0.980]
+false_neg: ap[1.000], max_rec[1.000]
+
+Benchmark Index [0,2]:
+baseline: ap[0.886], max_rec[0.928]
+miss: ap[0.945], max_rec[0.972]
+swap: ap[0.954], max_rec[0.972]
+inversion: ap[0.970], max_rec[0.995]
+jitter: ap[0.970], max_rec[0.995]
+score: ap[0.990], max_rec[0.995]
+bckgd_false_pos: ap[0.990], max_rec[0.995]
+false_neg: ap[1.000], max_rec[1.000]
+
+Benchmark Index [0,3]:
+baseline: ap[0.962], max_rec[0.971]
+miss: ap[0.981], max_rec[0.994]
+swap: ap[0.984], max_rec[0.994]
+inversion: ap[0.985], max_rec[0.994]
+jitter: ap[0.985], max_rec[0.994]
+score: ap[0.990], max_rec[0.994]
+bckgd_false_pos: ap[0.990], max_rec[0.994]
+false_neg: ap[1.000], max_rec[1.000]
+
+Benchmark Index [1,0]:
+baseline: ap[0.025], max_rec[0.310]
+miss: ap[0.120], max_rec[0.704]
+swap: ap[0.152], max_rec[0.775]
+inversion: ap[0.167], max_rec[0.789]
+jitter: ap[0.173], max_rec[0.803]
+score: ap[0.797], max_rec[0.803]
+bckgd_false_pos: ap[0.802], max_rec[0.803]
+false_neg: ap[1.000], max_rec[1.000]
+
+Benchmark Index [1,1]:
+baseline: ap[0.333], max_rec[0.674]
+miss: ap[0.552], max_rec[0.826]
+swap: ap[0.679], max_rec[0.938]
+inversion: ap[0.743], max_rec[0.972]
+jitter: ap[0.744], max_rec[0.972]
+score: ap[0.970], max_rec[0.972]
+bckgd_false_pos: ap[0.970], max_rec[0.972]
+false_neg: ap[1.000], max_rec[1.000]
+
+Benchmark Index [1,2]:
+baseline: ap[0.801], max_rec[0.887]
+miss: ap[0.880], max_rec[0.946]
+swap: ap[0.915], max_rec[0.967]
+inversion: ap[0.929], max_rec[0.975]
+jitter: ap[0.929], max_rec[0.975]
+score: ap[0.970], max_rec[0.975]
+bckgd_false_pos: ap[0.970], max_rec[0.975]
+false_neg: ap[1.000], max_rec[1.000]
+
+Benchmark Index [1,3]:
+baseline: ap[0.857], max_rec[0.873]
+miss: ap[0.890], max_rec[0.909]
+swap: ap[0.934], max_rec[0.945]
+inversion: ap[0.966], max_rec[0.982]
+jitter: ap[0.966], max_rec[0.982]
+score: ap[0.980], max_rec[0.982]
+bckgd_false_pos: ap[0.980], max_rec[0.982]
+false_neg: ap[1.000], max_rec[1.000]
+
+Benchmark Index [2,0]:
+baseline: ap[0.001], max_rec[0.250]
+miss: ap[0.010], max_rec[0.750]
+swap: ap[0.011], max_rec[0.750]
+inversion: ap[0.020], max_rec[1.000]
+jitter: ap[0.021], max_rec[1.000]
+score: ap[1.000], max_rec[1.000]
+bckgd_false_pos: ap[1.000], max_rec[1.000]
+false_neg: ap[1.000], max_rec[1.000]
+
+Benchmark Index [2,1]:
+baseline: ap[0.034], max_rec[0.462]
+miss: ap[0.107], max_rec[0.846]
+swap: ap[0.183], max_rec[1.000]
+inversion: ap[0.208], max_rec[1.000]
+jitter: ap[0.210], max_rec[1.000]
+score: ap[1.000], max_rec[1.000]
+bckgd_false_pos: ap[1.000], max_rec[1.000]
+false_neg: ap[1.000], max_rec[1.000]
+
+Benchmark Index [2,2]:
+baseline: ap[0.272], max_rec[0.846]
+miss: ap[0.405], max_rec[1.000]
+swap: ap[0.524], max_rec[1.000]
+inversion: ap[0.571], max_rec[1.000]
+jitter: ap[0.571], max_rec[1.000]
+score: ap[1.000], max_rec[1.000]
+bckgd_false_pos: ap[1.000], max_rec[1.000]
+false_neg: ap[1.000], max_rec[1.000]
+
+Benchmark Index [2,3]:
+baseline: ap[1.000], max_rec[1.000]
+miss: ap[1.000], max_rec[1.000]
+swap: ap[1.000], max_rec[1.000]
+inversion: ap[1.000], max_rec[1.000]
+jitter: ap[1.000], max_rec[1.000]
+score: ap[1.000], max_rec[1.000]
+bckgd_false_pos: ap[1.000], max_rec[1.000]
+false_neg: ap[1.000], max_rec[1.000]
+
+Done, (t=206.04s).

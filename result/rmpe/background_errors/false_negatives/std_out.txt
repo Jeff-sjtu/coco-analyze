@@ -1,0 +1,84 @@
+Running Analysis: [False Negatives]
+
+Num. annotations: [88153]
+OKS thresh: [0.500000]
+ - Matches:      [1708]
+ - Bckgd. FN:    [86445]
+OKS thresh: [0.550000]
+ - Matches:      [1691]
+ - Bckgd. FN:    [86462]
+OKS thresh: [0.600000]
+ - Matches:      [1668]
+ - Bckgd. FN:    [86485]
+OKS thresh: [0.650000]
+ - Matches:      [1644]
+ - Bckgd. FN:    [86509]
+OKS thresh: [0.700000]
+ - Matches:      [1602]
+ - Bckgd. FN:    [86551]
+OKS thresh: [0.750000]
+ - Matches:      [1550]
+ - Bckgd. FN:    [86603]
+OKS thresh: [0.800000]
+ - Matches:      [1472]
+ - Bckgd. FN:    [86681]
+OKS thresh: [0.850000]
+ - Matches:      [1387]
+ - Bckgd. FN:    [86766]
+OKS thresh: [0.900000]
+ - Matches:      [1191]
+ - Bckgd. FN:    [86962]
+OKS thresh: [0.950000]
+ - Matches:      [845]
+ - Bckgd. FN:    [87308]
+
+Background False Negative Errors:
+Image_id, ground_truth id, num_keypoints: [471625][1310781][17]
+Image_id, ground_truth id, num_keypoints: [311083][516616][17]
+Image_id, ground_truth id, num_keypoints: [49660][1304111][17]
+Image_id, ground_truth id, num_keypoints: [496575][524630][17]
+Image_id, ground_truth id, num_keypoints: [101919][1741427][1]
+Image_id, ground_truth id, num_keypoints: [353320][436869][1]
+Image_id, ground_truth id, num_keypoints: [558808][1703772][1]
+Image_id, ground_truth id, num_keypoints: [334483][1226422][1]
+
+Background False Negatives Bounding Box Dimenstions:
+ - Min width:  [0]
+ - Max width:  [640]
+ - Min height: [1]
+ - Max height: [640]
+
+Number of people in images with Background False Negatives:
+ - No people:         [0]
+ - One person:        [7464]
+ - Small group (2-4): [13141]
+ - Large Group (5-8): [9131]
+ - Crowd       (>=9): [19188]
+
+Area size (in pixels) of Background False Negatives:
+ - Small    (0,1024):            [1787]
+ - Medium   (1024,4096):         [16483]
+ - Large    (4096,9216):         [9210]
+ - X-Large  (9216,16384):        [6198]
+ - XX-Large (16384,10000000000): [15246]
+
+Number of visible keypoints for Background False Negatives:
+ - [1] kpts: [1074] False Neg.
+ - [2] kpts: [1331] False Neg.
+ - [3] kpts: [1170] False Neg.
+ - [4] kpts: [1622] False Neg.
+ - [5] kpts: [1450] False Neg.
+ - [6] kpts: [2298] False Neg.
+ - [7] kpts: [2213] False Neg.
+ - [8] kpts: [2534] False Neg.
+ - [9] kpts: [2792] False Neg.
+ - [10] kpts: [3398] False Neg.
+ - [11] kpts: [3569] False Neg.
+ - [12] kpts: [4678] False Neg.
+ - [13] kpts: [4736] False Neg.
+ - [14] kpts: [3896] False Neg.
+ - [15] kpts: [4434] False Neg.
+ - [16] kpts: [4999] False Neg.
+ - [17] kpts: [2730] False Neg.
+
+Done, (t=1701.38s).

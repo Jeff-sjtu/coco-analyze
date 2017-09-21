@@ -4,7 +4,7 @@ from jinja2 import Template
 
 ## COCO imports
 from pycocotools.coco import COCO
-from pycocotools.cocoanalyze import COCOanalyze
+from pycocotoolsbak.cocoanalyze import COCOanalyze
 
 ## Analysis API imports
 from analysisAPI.errorsAPImpact import errorsAPImpact
@@ -78,9 +78,18 @@ def main():
 
     ## initialize COCO analyze api
     coco_analyze = COCOanalyze(coco_gt, coco_dt, 'keypoints')
-    if teamName == 'fakekeypoints100':
-        imgIds  = sorted(coco_gt.getImgIds())[0:100]
-        coco_analyze.cocoEval.params.imgIds = imgIds
+    
+    ## initialize list of image IDs
+    imgIds_file = open('./coco-minival500_images.txt')
+    imgIds_str = imgIds_file.readline()
+    if imgIds_str[-1] == '\n':
+    	imgIds_str = imgIds_str[:-1]
+    imgIds_str = imgIds_str.split(',')
+    imgIds = []
+    for x in imgIds_str:
+    	imgIds.append(int(x))
+    print("The length of list is: %d"%(len(imgIds)))
+    coco_analyze.cocoEval.params.imgIds = imgIds
 
     ## regular evaluation
     coco_analyze.evaluate(verbose=True, makeplots=True, savedir=saveDir, team_name=teamName)

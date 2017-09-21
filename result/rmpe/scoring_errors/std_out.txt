@@ -1,0 +1,47 @@
+Running Analysis: [Scoring Errors]
+
+Num. of imgs with sub-optimal detections order: [337]/[500] (67.40%).
+
+Num. of scoring errors:
+ - Original Score: 6
+ - Optimal Score:  1
+
+Most relevant scoring errors:
+================================================
+- gt id: [482116]
+- dt id, high score, low  oks:  [1476][0.877][0.651]
+- dt id, low  score, high oks:  [1479][0.514][0.798]
+- Relevance: [0.231]
+
+================================================
+- gt id: [1709520]
+- dt id, high score, low  oks:  [424][0.546][0.792]
+- dt id, low  score, high oks:  [427][0.412][0.984]
+- Relevance: [0.160]
+
+================================================
+- gt id: [2204750]
+- dt id, high score, low  oks:  [2017][0.670][0.504]
+- dt id, low  score, high oks:  [2019][0.373][0.521]
+- Relevance: [0.072]
+
+================================================
+- gt id: [445624]
+- dt id, high score, low  oks:  [2102][0.135][0.866]
+- dt id, low  score, high oks:  [2104][0.094][0.921]
+- Relevance: [0.047]
+
+================================================
+- gt id: [1319314]
+- dt id, high score, low  oks:  [473][0.685][0.774]
+- dt id, low  score, high oks:  [474][0.681][0.851]
+- Relevance: [0.017]
+
+================================================
+- gt id: [1314600]
+- dt id, high score, low  oks:  [477][0.352][0.984]
+- dt id, low  score, high oks:  [480][0.324][0.992]
+- Relevance: [0.015]
+
+
+Done, (t=37.23s).
